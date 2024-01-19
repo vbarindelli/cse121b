@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 let fullName = 'Virginia Barindelli';
 let currentYear = '2024';
-let profilePicture = '..\images\VirginiaBarindelli.png';
+let profilePicture = '/images/VirginiaBarindelli.png';
 
 
 

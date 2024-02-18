@@ -11,12 +11,6 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-nav {
-    background-color: black;
-    width: 100%;
-    position: fixed;
-    top: 0;
-}
 
 nav ul {
     display: flex;
@@ -27,40 +21,6 @@ nav ul {
     margin: 0 auto;
 }
 
-nav ul li {
-    flex: 1 1 auto;
-}
-
-nav ul li:first-child {
-    display: block;
-    font-size: 2rem;
-}
-
-nav ul li:first-child a {
-    padding: 1px 10px;
-}
-
-nav ul li {
-    display: none;
-    list-style: none;
-    margin: 10px;
-}
-
-nav ul li a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: 600;
-    color: white;
-    text-align: center;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-}
-
-nav ul li a:hover {
-    background-color: #efefef;
-    color: black;
-}
-
 h1,
 h2 {
     text-align: center;
@@ -68,7 +28,7 @@ h2 {
 }
 
 h1 {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 3px solid #245503;
 }
 
 #gridly h1 {
@@ -77,7 +37,7 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    color: navy;
+    color: rgb(4, 104, 42);
     text-align: center;
     margin-top: 25px;
 }
@@ -89,18 +49,6 @@ h3 {
 
 header {
     margin-top: 70px;
-}
-
-picture {
-    margin: 0 auto;
-}
-
-picture img {
-    width: 240px;
-    height: auto;
-    border-radius: 5%;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 30px #777;
 }
 
 section {
@@ -130,33 +78,6 @@ input {
     padding: .35rem;
 }
 
-input[type="button"] {
-    padding: .5rem;
-    background-color: #444;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%
-}
-
-input[type="checkbox"] {
-    width: 25px;
-    height: 25px;
-}
-
-dt {
-    font-weight: 700;
-}
-
-dt::before {
-    content: "🏘️ ";
-}
-
-dd {
-    margin: 0 0 .5rem 2rem;
-    font-size: smaller;
-}
 
 footer {
     background-color: #444;

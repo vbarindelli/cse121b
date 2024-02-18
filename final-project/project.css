@@ -1,3 +1,4 @@
+
 /* Universal Selector */
 * {
     margin: 0;
@@ -167,86 +168,7 @@ footer {
     bottom: 0;
 }
 
-/* Class Selectors */
-.active {
-    border-bottom: 1px solid yellow;
-}
-
-.open li {
-    display: block;
-}
-
-.block {
-    display: block;
-}
-
-.larger {
-    font-size: larger;
-    color: red;
-}
-
-.right {
-    width: 100%;
-    text-align: right;
-}
-
-.middle {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    gap: 1rem;
-}
-
-/* ID Selectors */
-
-#home {
-    margin-top: 125px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-
-#section1 {
-    background-color: rgb(225, 250, 225, .5);
-}
-
-#section2 {
-    background-color: rgba(200, 200, 250, 0.5);
-
-}
-
-#section2 div {
-    margin-bottom: 1rem;
-}
-
-#section3 {
-    background-color: rgb(250, 225, 250, .5);
-}
-
-#sortBy {
-    appearance: none;
-    display: flex;
-    padding: .5rem;
-    background-color: #eee;
-    color: #444;
-    font-weight: 700;
-    margin: 1rem auto;
-    width: 200px;
-    border: 1px solid rgba(0, 0, 0, .2);
-    text-align: center;
-}
-
-#sortBy option:disabled {
-    font-style: italic;
-    padding: 1rem;
-    background-color: #111;
-    color: #eee;
-}
-
-#temples {
+#fruits {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: .5rem;
@@ -254,7 +176,7 @@ footer {
     margin-bottom: 3rem;
 }
 
-#temples article {
+#fruits article {
     height: 250px;
     margin: .5rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -266,51 +188,29 @@ footer {
     justify-content: center;
 }
 
-#temples h4 {
-    color: navy;
-    font-size: smaller;
+#sortA {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+    
+}
+#sortD {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+    
 }
 
 
-#temples img {
-    width: 250px;
-    height: auto;
-    box-shadow: 0 0 30px #777;
-    margin: .5rem;
-}
-
-
-/* Media Queries */
-@media only screen and (min-width: 32.5em) {
-    nav ul {
-        flex-direction: row;
-    }
-
-    nav ul li:first-child {
-        display: none;
-    }
-
-    nav ul li {
-        display: block;
-    }
-
-    section {
-        min-width: 300px;
-    }
-
-    #home {
-        margin: 100px auto 20px;
-        grid-template-columns: 250px 1fr;
-        max-width: -moz-fit-content;
-        max-width: fit-content;
-    }
-
-    #task3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
-        margin: 0 auto;
-        max-width: 950px;
-    }
-
-}

@@ -64,6 +64,4 @@ function filterTemples (temples) {
 document.querySelector("#filtered").addEventListener("change", () => {filterTemples (templeList)});
 
 
-console.log(templeList)
-
 getTemples();
